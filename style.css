@@ -125,6 +125,16 @@ nav {
     align-items: center;
 }
 
+.nav-item {
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: var(--overlay-trans);
+    border: 1px solid var(--highlight-med);
+}
+
 .twoitem-span {
     min-width: 100%;
     display: flex;
