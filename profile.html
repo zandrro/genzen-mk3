@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Profile • GenZen</title>
+    <link rel="icon" type="image/x-icon" href="genzen-fav.svg">
+    <!-- browser chrome colors -->
+    <meta name="theme-color" content="#faf4ed" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#191724" media="(prefers-color-scheme: dark)">
+</head>
+
+<body>
+    <div class="content">
+        <div id="profile-top">
+            <aside>
+                <h1 style="font-size: 2em;">Hello, Obama</h1>
+                <br>
+                <div>
+                    <p>🗓️ Member since 2024</p>
+                    <p>❄️ 0 day streak</p>
+                    <p>🏅 4 badges</p>
+                </div>
+                <a href="">Edit profile →</a>
+            </aside>
+            <img id="pfp" src="profile.jpg" width=192px height=192px />
+        </div>
+        <section class="columnar-section">
+            <h2>Your badges</h2>
+            <div id="badges">
+                <div class="badge">Mindful Walker</div>
+                <div class="badge">Thousand-fold</div>
+                <div class="badge">1-Week Streak</div>
+                <div class="badge">Man in the Tan</div>
+            </div>
+        </section>
+        <section class="columnar-section">
+            <div class="twoitem-span">
+                <h2>Timeline</h2>
+                <a href="" class="plusbutton" style="font-size: 2rem; width: 2rem;">+</a>
+            </div>
+            <div class="timeline-entry">
+                <p class="remark">Yesterday</p>
+                <p>Meditated for <span style="color: var(--foam)">30 minutes</span></p>
+            </div>
+            <div class="timeline-entry">
+                <p class="remark">2 days ago</p>
+                <p>Ate a healthy meal</p>
+            </div>
+            <div class="timeline-entry">
+                <p class="remark">Last week</p>
+                <p>Walked for <span style="color: var(--love)">3 kilometers</span></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- this is so stupid -->
+    <nav>
+        <a href="index.html" class="nav-item"><img src="genzen-fav.svg" width="24px"></a>
+        <a href="journal.html" class="nav-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="feather feather-edit-3">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg></a>
+        <a href="library.html" class="nav-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="feather feather-book">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg></a>
+        <a href="profile.html" class="nav-item active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="feather feather-user">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+            </svg></a>
+    </nav>
+</body>
+
+</html>

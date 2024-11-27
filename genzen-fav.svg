@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733333 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="genzen-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.98276642"
+     inkscape:cx="-74.280113"
+     inkscape:cy="115.99908"
+     inkscape:window-width="1496"
+     inkscape:window-height="827"
+     inkscape:window-x="8"
+     inkscape:window-y="46"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-82.559587,-18.903333)">
+    <g
+       id="g2"
+       transform="matrix(1.3075088,0,0,1.3075088,-33.621546,-26.641539)">
+      <path
+         style="fill:none;stroke:#000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 93.08786,40.543675 c 0,0 16.22328,-7.870027 19.21694,-3.137438 3.37952,5.342562 -17.628788,23.073037 -17.628788,23.073037 0,0 18.486018,-15.951173 19.095728,1.655385 0.20797,6.00542 -4.29069,29.168397 -14.618748,22.189983 -10.328055,-6.978418 28.564968,-53.358676 36.783118,-39.273455 4.69536,8.047461 -24.68869,10.588194 -24.68869,10.588194"
+         id="path1"
+         sodipodi:nodetypes="cscsssc" />
+      <circle
+         style="fill:none;stroke:#000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path2"
+         cx="124.2307"
+         cy="65.823967"
+         r="5.4823484" />
+    </g>
+  </g>
+  <style>
+    circle, path {
+      stroke: #000 !important;
+    }
+    @media (prefers-color-scheme: dark) {
+      circle, path {
+        stroke: #fff !important;
+      }
+    }
+  </style>
+</svg>

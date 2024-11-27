@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Gabarito;
+    src:url(Gabarito.ttf);
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src:url(YoungSerif.woff2);
+}
+
+:root {
+    color-scheme: light dark;
+    
+    /* rosé pine dawn & standard: https://rosepinetheme.com */
+    --base: light-dark(#faf4ed, #191724);
+    --surface: light-dark(#fffaf3, #1f1d2e);
+    --overlay: light-dark(#f2e9e1, #26233a);
+    --overlay-trans: light-dark(#f2e9e188, #26233a88);
+    --muted: light-dark(#9893a5, #6e6a86);
+    --subtle: light-dark(#797593, #908caa);
+    --text: light-dark(#575279, #e0def4);
+    --love: light-dark(#b4637a, #eb6f92);
+    --gold: light-dark(#ea9d34, #f6c177);
+    --rose: light-dark(#d7827e, #ebbcba);
+    --pine: light-dark(#286983, #31748f);
+    --foam: light-dark(#56949f, #9ccfd8);
+    --iris: light-dark(#907aa9, #c4a7e7);
+    --highlight-low: light-dark(#f4ede8, #21202e);
+    --highlight-med: light-dark(#dfdad9, #403d52);
+    --highlight-high: light-dark(#cecacd, #524f67);
+}
+
+* {
+    font-family: Gabarito, sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--text);
+
+    /* remove scrollbars */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--base);
+
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 128px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+    line-height: 1;
+    margin: 0.25em 0;
+}
+
+li, #games-container {
+    line-height: 1.75;
+}
+
+.remark {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: var(--subtle);
+}
+
+.deco-emoji {
+    font-size: 4rem;
+}
+
+section {
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box; /* so padding doesn't increase width */
+    background-color: var(--surface);
+    border: 1px solid var(--highlight-med);
+    border-radius: 16px;
+
+    display: flex;
+    gap: 16px;
+}
+
+aside {
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+    max-width: 480px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.content h1 {
+    align-self: flex-start;
+}
+
+nav {
+    background-color: var(--overlay-trans);
+    border-top: 1px solid var(--highlight-high);
+    backdrop-filter: blur(12px) contrast(1.25);
+
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.twoitem-span {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+#meditation {
+    color: var(--iris);
+}
+
+#breathing {
+    color: var(--foam);
+}
+
+#yoga {
+    color: var(--love);
+}
+
+#profile-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+#profile-top aside {
+    height: 192px; /* à la the pfp */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#pfp {
+    border-radius: 50%;
+    border: 1px solid var(--highlight-high);
+    align-self: flex-start;
+}
+
+.columnar-section {
+    flex-direction: column;
+}
+
+#badges {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.badge {
+    height: 96px;
+    width: 96px;
+    padding: 2px;
+    box-sizing: border-box; /* so padding doesn't increase width */
+    background: linear-gradient(var(--gold), var(--rose));
+    color: var(--highlight-med);
+    border: 4px solid #00000022;
+    border-radius: 8px;
+    display: flex;
+    align-items: center; /* is flex computationally intensive? */
+}
+
+.timeline-entry {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: -10px 0px; /* don't know why I have to do this and don't care to find out */
+}
+
+.plusbutton {
+    text-decoration: none;
+    font-size: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+
+    background-color: var(--overlay);
+    border: 1px solid var(--highlight-med);
+    border-radius: 50%;
+}
+
+.library-item {
+    max-width: 102px;
+    border: 1px solid var(--highlight-med);
+    border-radius: 8px;
+}
+
+.progressbar, .progress {
+    height: 12px;
+    border-radius: 12px;
+}
+
+.progressbar {
+    width: 100%;
+    background-color: var(--overlay);
+    border: 1px solid var(--highlight-med);
+}
+
