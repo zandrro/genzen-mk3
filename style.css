@@ -50,7 +50,7 @@ body {
     background-color: var(--base);
 
     margin: 0;
-    padding-top: 10%;
+    padding-top: 8vh;
     padding-bottom: 128px;
 
     display: flex;
