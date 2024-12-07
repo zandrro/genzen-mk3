@@ -262,6 +262,6 @@ nav {
     border: none;
     color: #fffaf3;
     background: linear-gradient(90deg, var(--foam), var(--pine));
-    border: 4px solid var(--foam);
+    border: 2px solid var(--foam);
     border-radius: 6px;
 }
